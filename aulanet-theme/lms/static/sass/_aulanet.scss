@@ -160,7 +160,7 @@ h2, .home>header .title>.heading-group p, section.outside-app h1 {
 }
 .dashboard .main-container .my-courses .listing-courses .course-item {
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #2871ad;
   // border-radius: 22px;
 }
 .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .action-more, .entitlement-actions-wrapper .dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .entitlement-action-more, .dashboard .main-container .my-courses .course .details .course-actions .entitlement-actions-wrapper .entitlement-action-more {
@@ -224,7 +224,7 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
 /* Login UI */
 .login-register-content {
   margin-top: 0px;
-  display: block;
+  display: block flow;
 }
 .login-register {
   background: transparent;
@@ -232,11 +232,12 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
 .login-register-content h2, .login-register-content .home>header .title>.heading-group p, .home>header .title>.heading-group .login-register-content p, .login-register-content section.outside-app h1, section.outside-app .login-register-content h1 {
   text-align: center;
   color: #000;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bold;
-  padding: 10px;
+  padding: 15px;
   position: relative;
   margin-top: 15px;
+font-family: sans-serif;
 }
 .login-register .action-primary, .financial-assistance-wrapper .financial-assistance-form .action-primary {
   min-width: 100%;
@@ -268,7 +269,7 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
 #login-and-registration-container h2::after {
   content: "";
   width: 79px;
-  border-bottom: solid 2px #00dccf;
+  border-bottom: solid 2px #33a19a;
   position: absolute;
   left: 50%;
   top: 30%;
@@ -453,13 +454,13 @@ h2, .home>header .title>.heading-group p, section.outside-app h1, .home>header .
 
 .anet-card-owner {
   font-size: 17px;
-  color: #4e4e4e;
+  color: #000;
   margin-bottom: 15px;
 }
 
 .anet-card-description {
   font-size: 17px;
-  color: #4e4e4e;
+  color: #000;
   margin-bottom: 25px;
 }
 

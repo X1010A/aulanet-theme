@@ -10,17 +10,16 @@
 <%namespace name='static' file='static_content.html'/>
 
   <div class="anet-footer">
-    <div class="anet-img-container">
+    <div class="anet-img-container" style="aling-items:center" >
       <a href="/">
         <img src="${static.url("images/aulaNetAzul.svg")}" style="height: 110px" />
       </a>
-      <span>AulaNet - 2020</span>
     </div>
 
     <div class="anet-vertical-line"></div>
 
     <div class="anet-directions">
-      <span>Direcciones</span>
+      <h2>Direcciones</h2>
       <div class="anet-dir1">
         Calacoto entre C.16 y 17, Garden (Zona Sur) <br />
         La Paz, Bolivia
@@ -34,7 +33,7 @@
     <div class="anet-vertical-line"></div>
 
     <div class="anet-contacts">
-      <span>Contactos</span>
+      <h2>Contactos</h2>
       <div class="anet-contact1">
         Telefono: +591 75275552 <br />
         La Paz, Bolivia
@@ -48,7 +47,7 @@
     <div class="anet-vertical-line"></div>
 
     <div class="anet-social">
-      <span>Redes Sociales</span>
+      <h2>Redes Sociales</h2>
       <ul>
         <li>
           <a href="https://wa.me/message/OTJLVTAW4ZGBG1" target="_blank">
@@ -68,6 +67,9 @@
       </ul>
     </div>
   </div>
+<div style="font-size:11px; color:#fff;text-align:center;background:#032535">
+&copy; <script>document.write(new Date().getFullYear())</script> - AulaNet
+</div>
 
 % if include_dependencies:
   <%static:js group='base_vendor'/>

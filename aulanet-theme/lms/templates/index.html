@@ -23,20 +23,20 @@ from openedx.core.djangolib.markup import HTML, Text
         margin-top: 5vh;    ">
       <div class="col"><video preload="preload" loop="" muted="" style="
         height: 50vh;
-        position: absolute;    ">
-              <source  src="${static.url("videos/1.mp4")}" type="video/mp4">
+        position: absolute;
+        margin: 0 auto;">
+             <source  src="${static.url("videos/1.mp4")}" type="video/mp4">
             </video></div>
       <div class="col"><video preload="preload" autoplay="" loop="" muted="" style="
-        height: 55vh;
-        padding-left: 25%;
-        z-index: 2;
-        position: absolute;" controls="">
+        height: 50vh;
+        position: absolute;
+        margin:0 auto;" controls="">
               <source src="${static.url("videos/1.mp4")}" type="video/mp4">
             </video>
           </div>
       <div class="col"><video preload="preload" loop="" muted="" style="
         height: 50vh;
-        padding-left: 75%;    ">
+        margin: 0 auto;">
               <source src="${static.url("videos/1.mp4")}" type="video/mp4">
             </video></div>
     </div></div>
